@@ -1,0 +1,165 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/download.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#login-box {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#signUp {
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px; /* Increased padding for a more button-like appearance */
+    cursor: pointer;
+    margin-top: 20px; /* Added margin to separate the button from the inputs */
+}
+
+#signUp:hover {
+    background-color: #0056b3;
+}
+
+/* Rest of your CSS rules */
+
+#user-info {
+    position: absolute;
+    top: 10px; /* Adjust this value to control the vertical positioning */
+    right: 10px; /* Adjust this value to control the horizontal positioning */
+    background: rgba(0, 0, 0, 0.5); /* Background color with some transparency */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#buttons {
+    background: #333;
+    width: 20%;
+    padding: 20px;
+}
+
+.action-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background: #0074d9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+}
+
+#chat-box {
+    background: #f2f2f2;
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.message {
+    background: #0074d9;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+body {
+    background-image: url("https://img.freepik.com/free-photo/robot-hand-background-presenting-technology-gesture_53876-129785.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.chat-messages {
+    max-height: 300px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+}
